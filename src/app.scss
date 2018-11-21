@@ -1,0 +1,57 @@
+$rootColor: navy;
+$headerColor: Orange;
+$baseColor: white;
+
+body {
+  background: lighten($rootColor, 35);
+  color: $baseColor;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+  header {
+    font-weight: bold;
+    color: $headerColor;
+    text-shadow: #000000 3px 5px 2px, 2px 2px 2px rgba(255, 184, 31, 0);
+  }
+
+  div {
+    width: 150px;
+    margin: 0px auto;
+    align-content: center;
+  }
+
+  div > h4 {
+    width: 50px;
+    margin: 5px auto 0px auto;
+    border: 2px solid black;
+    padding: 20px;
+    font-size: 250%;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #0e0d0d, 0 2px 0 #0c0c0c, 0 3px 0 rgb(8, 8, 8),
+      0 4px 0 #141313, 0 5px 0 rgb(19, 18, 18);
+
+    &.positive {
+      background: green;
+    }
+
+    &.negative {
+      background: red;
+    }
+  }
+
+  div > a {
+    font-size: 500%;
+    font-weight: bold;
+    text-decoration: none;
+    color: $headerColor;
+    text-shadow: 2px 2px 0 #141313, 2px -2px 0 #141313, -2px 2px 0 #141313,
+      -2px -2px 0 #141313, 2px 0px 0 #141313, 0px 2px 0 #141313,
+      -2px 0px 0 #141313, 0px -2px 0 #141313;
+  }
+
+  footer {
+    margin-top: 50px;
+    font-style: italic;
+  }
+}
