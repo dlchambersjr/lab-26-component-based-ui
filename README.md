@@ -29,4 +29,4 @@
 * No tests for this lab
 
 ### UML
-Link to an image of the UML for your application and response to events
+(https://raw.githubusercontent.com/dlchambersjr/lab-26-component-based-ui/master/lab-26-ULM.jpg)
