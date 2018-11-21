@@ -29,4 +29,4 @@
 * No tests for this lab
 
 ### UML
-!(https://raw.githubusercontent.com/dlchambersjr/lab-26-component-based-ui/master/lab-26-ULM.jpg)
+![UML](https://raw.githubusercontent.com/dlchambersjr/lab-26-component-based-ui/master/lab-26-ULM.jpg)
